@@ -17,8 +17,8 @@ const transactionTypeOptions = [
 class MoneyManager extends Component {
   state = {
     transactionList: [],
-    titleInput,
-    amountInput,
+    titleInput:'',
+    amountInput:'',
     optionId: transactionTypeOptions[0].optionId,
   }
   deleteButton = id => {
